@@ -30,5 +30,5 @@ int main(){
     assert(MAX(a, b) == b);
     assert(MAX(alph, beta) == 'B');
     
-    FREE_ALL(x, y, z); 
+    FREE_ALL(x, y, z, ptr); 
 }
